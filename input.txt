@@ -1,0 +1,14 @@
+ADDI $V0, $ZERO, 26;
+SW $V0, $ZERO, 19;
+LW $A0, $ZERO, 19;
+ADD $A1, $ZERO, $ZERO;
+ADDI $A1, $A1, 1;
+ADDI $A1, $A1, 3;
+ADDI $A1, $A1, 5;
+ADDI $A1, $A1, 7;
+ADDI $A1, $A1, 9;
+NAND $A2, $A1, $A1;
+ADDI $A2, $A2, 1;
+ADD $A0, $A0, $A2;
+SW $A0, $ZERO, 19;
+    
