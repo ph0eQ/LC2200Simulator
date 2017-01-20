@@ -1,0 +1,2 @@
+# LC2200Simulator
+A LC2200 simulator program which models the functionality of an LC2200 computer. The program reads an input file containing LC2200 assembly code, tokenizes and parses the code instructions, sends each instruction through the Finite State Machine where it is fetched, decoded, and executed. After the all instructions are processed, the final result is output. The program is written in the C programming language.
